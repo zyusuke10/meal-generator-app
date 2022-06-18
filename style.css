@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    min-height:100vh;
+}
+
+.container{
+    padding:100px;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title h1{
+    font-size:3em;
+}
+
+.title p{
+    font-size: 1em;
+}
+
+#btn{
+    margin-top:50px;
+    margin-bottom: 30px;
+    font-size: 1em;
+    padding:10px;
+}
+
+.meal-wrapper{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.meal-name{
+    padding : 20px;
+}
+
+.category{
+    padding: 20px;
+}
+
+.Area{
+    padding:20px;
+}
+
+.instructions{
+    padding: 20px;
+}
+
+.photo{
+    padding :20px;
+    width:100%;
+    height:auto;
+    border-radius:50px;
+}
+
+.video{
+    padding:20px;
+    width:100%;
+    height:auto;
+}
+
+.h3{
+    color:red;
+}
+
+.h2{
+    color:red;
+    text-decoration: underline;
+    font-size:2em;
+}
+
+.p{
+    color:black;
+    font-size:1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (min-width:768px){
+    .photo{
+        padding :20px;
+        width:700px;
+        height:auto;
+        border-radius:50px;
+    }
+    
+    .video{
+        padding:20px;
+        width:700px;
+        height:400px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .container{
+        padding:20px;
+    }
+    }
+    .title h1{
+        font-size:2em;
+    }
+}
